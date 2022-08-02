@@ -1,0 +1,150 @@
+img { 
+  max-width: 350px;
+  height: 450px;
+
+}
+
+@media (max-width: 710px)
+{
+  img { 
+ width: 385px;
+  min-height: auto;
+  max-height: 500px;
+  }
+ 
+}
+  
+
+
+
+.flex-container {
+      display: flex;
+      justify-content:center;
+      flex-wrap: wrap;
+      align-items: space-between;
+     width: auto;
+     margin-top: 8%;
+
+  
+}
+.div-1{
+  display: block;
+  background-color: antiquewhite;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+
+}
+
+div {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+body {
+background-color: gray;
+}
+h6 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:  11px; ;
+  margin-left: 40px;
+}
+
+.p-1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:40%;
+  margin-right: 40px;
+  margin-left: 35px;
+  margin-top: 5%;
+  margin-bottom:3%;
+}
+.line-decoration {
+  text-decoration-line: line-through; 
+  font-size: 20px;
+} 
+p, button ,span { 
+  margin-left: 35px;
+  margin-right: 5px;
+  margin-top: 5%;
+  margin-bottom:3%;
+}
+.site {
+  margin-left: 10%;
+  margin-right: 50px;
+  margin-bottom:1%;
+  line-height: 30px;
+
+}
+.button-1 {
+  width: 230px;
+  height: 40px;
+  background-color:  rgb(50, 78, 57);
+  border-radius: 8px;
+  border: 2px solid rgb(3, 46, 8);
+  margin-left: 40px;
+  color :white ;
+}
+.button-1:before{
+  content: '';
+  background:url(images/icon-cart.svg);
+  background-size:cover;
+      position:absolute;
+  width:20px;
+  height:20px;
+  margin-left:-30px;
+}
+.button-1:hover {
+  background-color: rgb(1, 50, 50);
+
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 3, 0);
+ 
+
+}
+#button-2 {
+  border: 1px solid rgb(9, 123, 117);
+  border: dotted rgb(2, 117, 239) ;
+  background-color: rgb(214, 180, 95);
+  border-radius: 15%;
+}
+
+
+ a:hover  {
+  color: aqua;
+}
+#button-2:hover {
+  border: 1px solid rgb(0, 255, 217);
+  border: dotted rgb(2, 239, 132) ;
+  background-color: rgb(221, 0, 255);
+  font-size: 30px;
+  margin: auto;
+}
+
+.price {
+ color: rgb(50, 78, 57);
+ margin-left: 0%;
+}
+
+#gray {
+color:gray;
+}
+
+nav{
+  margin: 0%;
+}
+
+nav:hover {
+  margin-right:0%;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+
+
